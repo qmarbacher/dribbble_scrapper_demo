@@ -1,95 +1,263 @@
 body{
-  background: white;
-  color: rgb(15,15,15);
-  font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
-}
-h1{
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  font-weight: lighter;
-  font-size: 60px;
-}
-h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
-}
-a {
+  background-color: white;
   color: black;
-  text-decoration: none;
+  font-family: Lato;
+  font-weight: 300;
+  margin:0px;
+  height: 100%;
+  padding: 0px;
 }
+
+h1{
+  font-family: Lato;
+  font-weight: 900;
+  color: white;
+  font-size: 250%;
+}
+
+h2 {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px
+}
+
+h3 {
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 200%;
+  color: white;
+}
+
+a {
+  color: yellow;
+  text-align: center;
+}
+
 a:hover {
   text-decoration: none;
-  color: #8F2425;
+  color: purple;
 }
 
-#footer a {
-  color: lightgrey;
-  font-size: 15px;
-}
-#footer a:hover {
-  color: white;
+#footer {
+  display: block;
+  text-align: left;
+  background-color: #424B54;
 }
 
-#banner{
-  text-align: center;
-  background-image: linear-gradient(-225deg, transparent 0%, rgba(0,0,0,0.5) 60%), url("images/bootcamp.gif");
-  background-size: cover;
-  padding-top: 150px;
-  height: 100vh;
-  color: white;
+  #footer a {
 
-}
+  }
 
-#gif{
-  text-align: center;
-  background-image: url("images/hello.gif");
-  background-size: cover;
-  padding: 30vw 0;
-  color: white;
-  overflow-y: hidden;
-}
+  #footer a:hover {
 
-#banner h1 {
-  color: white;
-  font-size: 50px;
-  font-weight: bolder;
-  text-shadow: 1px 1px 5px black;
-  padding-top: 30px;
-}
-#banner p {
-  color: rgb(230,23);
-  opacity: 0.8;
-  font-size: 25px;
-  font-weight: lighter;
-  text-shadow: 1px 1px 5px black;
-  padding-bottom: 40px
-}
-#footer{
-  padding: 30px;
-  background: rgb(30, 30, 30);
-  color: lightgrey;
-}
+  }
+
 .card{
-  padding: 70px 30px;
-  font-weight: lighter;
   text-align: center;
+  padding: 5%;
+} 
+
+  .card p {
+    font-size: 150%;
+  }
+
+#banner {
+  display: block;
+  background-image: url("images/venise.png");
+  background-color: #333745; 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  padding-top: 15%;
+  padding-bottom: 5%;
+  padding-left: 0%
+  padding-right: 0%;
+  margin: 0%;
+  text-align: center;
+} 
+
+  #banner p {
+    color: white;
+    font-size: 150%;
+    font-weight: 400;
+  }
+
+  #banner img {
+    border-radius: 100px;
+    border-width: 200px;
+    border-color: #ffffff;
+
+  }
+  
+  #banner a {
+    color: white;
+    font-size: 150%;
+    font-weight: 400;
+    margin-top: 5%;
+  }
+    .bouton {
+      display: inline-block;
+      padding: 6px 12px;
+      margin-bottom: 0;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.42857143;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      background-image: none;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      background-color: #333745;
+      border-color: none;
+    }
+
+  #banner a:hover {
+    color: white;
+    font-size: 150%;
+    font-weight: 400;
+  }
+
+    .bouton:hover {
+      display: inline-block;
+      padding: 6px 12px;
+      margin-bottom: 0;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.42857143;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      background-image: none;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      background-color: #E83B5B;
+      border-color: none;
+    }
+
+  #banner .container-fluid {
+    margin: 0%;
+    padding: 0%;
+  }
+
+#block1 .container-fluid {
+  background-color: #34B1BF;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 0px
+  padding-right: 0px;
+  margin: 0px;
 }
 
-.icon-size {
-  font-size: 50px;
+  #block1 .container-fluid p {
+    color: white;
+  }
+
+  #block1 .container-fluid img {
+    width: 30%;
+  }
+
+.container {
+  margin: 0px;
+  padding: 0px;
 }
 
-.form-margin {
-  margin-top: 20px;
+  #block2 .row {
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+
+      align-items: center;
+
+      margin: 0px;
+      padding: 0px;
+  }
+    #block2 .container {
+      margin-right: 0px;
+      margin-left: 0px;
+      width: 100%;
+    }
+    #block2 {
+      background-color: #FFFFFF;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      padding-left: 0px
+      padding-right: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+      #block2 p {
+        color: #333745;
+        font-size: 150%;
+      }
+
+      #block2 h3 {
+        color: #333745;
+      }
+
+      #block2 img {
+        width: 40%;
+        padding: 0px;
+        margin: 0px;
+      }
+
+      #block2 .pictos img {
+        width: 6%;
+      }
+
+      #block2-1 #block2-2 #block2-3 {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      #block2-1 {
+        padding: 0px;
+        margin: 0px;
+      }
+
+      #block2-3 {
+        text-align: right;
+        padding: 0px;
+        margin: 0px;
+      }
+        #block2-3 img{
+          margin: 0px;
+          width: 49.09%;
+        }
+#gif {
+    text-align: center;
+    background-image: url(images/hello.gif);
+    background-size: cover;
+    padding: 30vw 0;
+    color: white;
+    overflow-y: hidden;
+}
+
+.row .col-xs12 .col-sm-8 {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .btn-red {
   color: white;
   background-color: #D23333;
-}
-
-#wufoo-sx0l84z1iszo7g {
-  padding: 50px 30px;
 }
 
 .cta {
