@@ -66,7 +66,7 @@ a:hover {
 
 #banner {
   display: block;
-  background-image: url("images/venise.png");
+  background-image: url("images/yes-we-code.jpg");
   background-color: #333745; 
   background-size: cover; 
   background-repeat: no-repeat;
@@ -169,24 +169,11 @@ a:hover {
     width: 30%;
   }
 
-.container {
-  margin: 0px;
-  padding: 0px;
-}
-
-  #block2 .row {
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      -webkit-box-align: center;
-
-      align-items: center;
-
-      margin: 0px;
-      padding: 0px;
+  #block2 {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 20%;
+    padding-bottom: 20%;
   }
     #block2 .container {
       margin-right: 0px;
@@ -264,15 +251,24 @@ a:hover {
   padding: 50px;
 }
 
+#footer {
+  text-align: center;
+  background-color: rgb(80,80,80);
+}
+
 #footer a {
   font-size: 30px;
+  color: white;
+
 }
 
 #footer a:hover {
-  color: #D23333;
+  color: #E83B5B;
 }
 
-/*Search List style*/
+#footer p {
+  color: white;
+}
 
 .card-list {
   display: flex;
@@ -284,8 +280,6 @@ a:hover {
 .card-list:hover {
   background-color: rgb(230, 230, 230);
 }
-
-
 
 .card-list-text {
 flex: 1 1 70%;
