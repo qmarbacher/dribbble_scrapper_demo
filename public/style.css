@@ -250,9 +250,8 @@ a:hover {
     overflow-y: hidden;
 }
 
-.row .col-xs12 .col-sm-8 {
-  padding-left: 0px;
-  padding-right: 0px;
+#formulaire {
+  padding: 0px;
 }
 
 .btn-red {
